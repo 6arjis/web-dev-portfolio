@@ -66,11 +66,11 @@ nav ul li a{
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 100px;
+    margin: 0 0 0 100px;
 }
 .banner-img{
     height: 650px;
-    width: 600px;
+    width: 1000px;
 }
 /* main */
 main{
@@ -135,5 +135,69 @@ main{
 }
 .btn-cv{
     margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
+}
+/* resume */
+.resume-title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+.resume-column-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.experience-title{
+    font-size: 20px;
+    color: #474747;
+}
+.experience-subtitle, .experience-description{
+    font-size: 14px;
+    color: #757575;
+}
+
+/* footer */
+.footer-container{
+    background-color: #FFF8F3;
+    display:flex ;
+   justify-content: space-evenly;
+   padding: 30px 130px 30px 130px;
+   gap: 50px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    height: 64px;
+    width: 460px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.input-textarea{
+    height: 204px;
+    width: 460px;
+    border: none;
+    border-radius: 5px;margin-bottom: 20px;
+}
+.connect .message{
+    width: 50%;
+}
+.connect-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.connect-description{
+    font-size: 20px;
+    color: #757575;
+}
+.socials a{
+    color: #FD6E0A;
+    font-size: 20px;
+}
+.social{
+    margin-right: 20px;
 }
